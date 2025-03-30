@@ -1,10 +1,10 @@
 <?php
 echo "<h1>Welcome to the Learning Management System!</h1>";
 
-// Database connection details for XAMPP
-$servername = "localhost";
+// Database connection details for Docker Compose
+$servername = "db"; // Use the service name from docker-compose.yml
 $username = "root";
-$password = ""; // Default XAMPP password is empty
+$password = "rootpassword"; // Use the password from docker-compose.yml environment
 $dbname = "lms_db";
 
 // Create connection
