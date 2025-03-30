@@ -1,5 +1,5 @@
 <?php
-echo "<h1>Welcome to the Learning Management System!</h1>";
+echo "<h1>1. Welcome to the Learning Management System!</h1>";
 
 // Database connection details for Docker Compose
 $servername = "db"; // Use the service name from docker-compose.yml
